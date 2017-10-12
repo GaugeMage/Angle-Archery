@@ -6,7 +6,7 @@
    includes support for mobile browsers
 
    Main code and design: Andy Harris - 2011/2012
-   Animation and tile elements by Tyler Mitchell
+   Animation and tile elements by Rohan Kakkilaya
   ________                              _____
  /  _____/_____   __ __  ____   ____   /     \ _____     ____   ____  
 /   \  ___\__  \ |  |  \/ ___\_/ __ \ /  \ /  \\__  \   / ___\_/ __ \ 
@@ -81,7 +81,7 @@ function Sprite(scene, imageFile, width, height){
     ctx = this.context;
 
     ctx.save();
-	//The following lines are for Tyler's code. Removed for now
+	//The following lines are for Rohan's code. Removed for now
 	//if( this.camera ){ ctx.translate(this.x - this.camera.cameraOffsetX, this.y - this.camera.cameraOffsetY); }
 	//else{ ctx.translate(this.x, this.y); }
 
